@@ -1,4 +1,6 @@
 # Delete up to previous `/` with ctrl-w
+export WORDCHARS=${WORDCHARS/\/}
+
 autoload -U select-word-style
 select-word-style bash
 
